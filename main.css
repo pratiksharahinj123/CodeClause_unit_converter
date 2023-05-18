@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#button {
+    height: 30px;
+    width: 90px;
+    color: black;
+    border-radius: 20px;
+    margin-left: 100px;
+}
+
+.container #button:hover {
+    background-color: black;
+    color: white;
+}
+
+.container {
+    position: relative;
+    width: 300px;
+    margin: 150px auto;
+}
+
+.container .content {
+    font-family: "Audiowide", serif;
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    width: 100%;
+    padding: 20px;
+}
